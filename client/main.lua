@@ -122,11 +122,11 @@ Citizen.CreateThread(function()
         AddTextComponentString(item.name)
         EndTextCommandSetBlipName(item.blip)
 
-        CreatePed(4, 0xB594F5C3, item.x, item.y, item.z, item.heading, false, true)
-        SetEntityHeading(item.blip, item.heading)
-        FreezeEntityPosition(item.blip, true)
-        SetEntityInvincible(item.blip, true)
-        SetBlockingOfNonTemporaryEvents(item.blip, true)
+        LesterPed = CreatePed(4, 0xB594F5C3, item.x, item.y, item.z, item.heading, false, true)
+        SetEntityHeading(LesterPed, item.heading)
+        FreezeEntityPosition(LesterPed, true)
+        SetEntityInvincible(LesterPed, true)
+        SetBlockingOfNonTemporaryEvents(LesterPed, true)
     end
 end)
 
