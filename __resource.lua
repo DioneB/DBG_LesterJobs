@@ -4,6 +4,7 @@ server_scripts {
 	'@mysql-async/lib/MySQL.lua',
 	'@es_extended/locale.lua',
 	'../DBG_LesterJobs/config.lua',
+	'../DBG_LesterJobs/locales/de.lua',
 	'../DBG_LesterJobs/locales/br.lua',
 	'../DBG_LesterJobs/locales/en.lua',
 	'../DBG_LesterJobs/locales/fr.lua',
@@ -13,6 +14,7 @@ server_scripts {
 client_scripts {
 	'@es_extended/locale.lua',
 	'../DBG_LesterJobs/config.lua',
+	'../DBG_LesterJobs/locales/de.lua',
 	'../DBG_LesterJobs/locales/br.lua',
 	'../DBG_LesterJobs/locales/en.lua',
 	'../DBG_LesterJobs/locales/fr.lua',
